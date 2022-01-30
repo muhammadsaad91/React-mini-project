@@ -1,17 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Data from './Data'
+import Card from './App'
+import mzpr from './images/mzpr.jpg'
+import osman from './images/osman.jpg'
+import ertugrul from './images/ertugrul.jpg'
+import './index.css'
 
+ console.log(Data[2]);
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <>
+       <h1 className='heading-main'>My Favourite Netflix Series </h1>
+       <h2 className='heading-main'>(SaAd's App)</h2>
+       <div className="main">  
+        <Card src={mzpr}
+        link={Data[0].link}
+        movieName={Data[0].movieName}
+        />
+        <Card src={osman}
+        link={Data[1].link}
+        movieName={Data[1].movieName}
+        />
+        <Card src={ertugrul}
+        link={Data[2].link}
+        movieName={Data[2].movieName}        />
+    <Card src={mzpr}
+        link={Data[0].link}
+        movieName={Data[0].movieName}
+        />
+        <Card src={osman}
+        link={Data[1].link}
+        movieName={Data[1].movieName}
+        />
+   </div> </>
+    , document.getElementById('root')
+
+)
