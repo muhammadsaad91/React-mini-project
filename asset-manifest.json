@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-mini-project/static/css/main.9f9144c7.css",
+    "main.js": "/react-mini-project/static/js/main.bd93e247.js",
+    "static/media/mzpr.jpg": "/react-mini-project/static/media/mzpr.c0fe81b289065edf2ced.jpg",
+    "static/media/ertugrul.jpg": "/react-mini-project/static/media/ertugrul.fd373bfc18fae965879c.jpg",
+    "static/media/osman.jpg": "/react-mini-project/static/media/osman.07680858606bc06abbac.jpg",
+    "index.html": "/react-mini-project/index.html",
+    "main.9f9144c7.css.map": "/react-mini-project/static/css/main.9f9144c7.css.map",
+    "main.bd93e247.js.map": "/react-mini-project/static/js/main.bd93e247.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9144c7.css",
+    "static/js/main.bd93e247.js"
+  ]
+}
